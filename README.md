@@ -1,8 +1,6 @@
-# Project: Creating a Database from CSV Files using Pandas and SQL
+# Creating a Database from CSV Files using Pandas and SQL
 
 ![Project Cover](https://cdn.corporatefinanceinstitute.com/assets/database.jpeg)
-
-## Intro
 
 ## Intro
 
@@ -60,12 +58,15 @@ In this phase, the following data cleaning and extraction steps were undertaken:
 - Columns were divided into subcolumns to better structure the data.
 - Multiple tables were merged to incorporate additional information.
 - Many-to-many relationships were established using table merges.
+- Faker library was used to generate a dummy table to store customer information.
 
 ## Database Creation
 
 The database was created using MySQL with the following steps:
 
 - An Entity-Relationship Diagram (ERD) was designed to define the relationships between tables, data types, foreign keys, and constraints.
+  ![ERD Diagram](https://i.imgur.com/zrUj2RP.png)
+
 - The ERD ensured the proper structure and integrity of the database.
 - CSV data was loaded into the corresponding tables in the MySQL database.
 
